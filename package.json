@@ -14,7 +14,7 @@
         "build": "node build.js",
         "check": "eslint app/resources/js/",
         "deploy": "forever index.js ./app 9901",
-        "predeploy": "node run build"
+        "predeploy": "npm run build"
     },
     "author": "Alexander Bazo <alexander.bazo@ur.de>",
     "license": "MIT",
